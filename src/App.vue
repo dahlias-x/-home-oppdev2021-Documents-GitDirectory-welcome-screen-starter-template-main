@@ -1,6 +1,6 @@
 <template>
   <div id="app">
- 
+
   <div>
     <h1 class="site-title" >{{ title }}..</h1>
   </div>
@@ -104,8 +104,9 @@ export default {
   margin-top: 60px;
 }
 
-.body {
+body {
  background:#e8eff3;
+ height: 1920px;
 }
 * {
   margin: 0;
