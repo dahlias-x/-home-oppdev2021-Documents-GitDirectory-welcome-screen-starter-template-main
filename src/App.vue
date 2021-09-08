@@ -2,7 +2,7 @@
   <div id="app">
  
   <div>
-    <h1 class="site-title" >{{ title }}</h1>
+    <h1 class="site-title" >{{ title }}..</h1>
   </div>
   <span class="site-description" >{{ currentDate }}</span>
   <ul class="entry-list">
@@ -52,7 +52,7 @@ export default {
         title: "Welcome to Opportunity",
         // date:  new Date().toISOString().slice(8,10)+"."+new Date().toISOString().slice(5,7)+"."+new Date().toISOString().slice(0,4)
         currentDate:"",
-        gesheet_url:"https://discord.com/channels/806834041827229696/806834041827229702/884790584911466536",
+        gesheet_url:"https://sheets.googleapis.com/v4/spreadsheets/1qLZJwuNv3QmwGhSj1wZZbuXNOkDKN-Ha7fo0Ca_uVVU/values:batchGet?ranges=A1%3AE100&valueRenderOption=FORMATTED_VALUE&key=AIzaSyBesotaNgSaTUIhrSKjEaExdi-ksKInhoE",
         entries:[],
       };
     
