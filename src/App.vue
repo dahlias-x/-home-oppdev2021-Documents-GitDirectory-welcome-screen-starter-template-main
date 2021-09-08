@@ -52,7 +52,7 @@ export default {
         title: "Welcome to Opportunity",
         // date:  new Date().toISOString().slice(8,10)+"."+new Date().toISOString().slice(5,7)+"."+new Date().toISOString().slice(0,4)
         currentDate:"",
-        gesheet_url:"https://sheets.googleapis.com/v4/spreadsheets/1qLZJwuNv3QmwGhSj1wZZbuXNOkDKN-Ha7fo0Ca_uVVU/values:batchGet?ranges=A1%3AE100&valueRenderOption=FORMATTED_VALUE&key=AIzaSyATblrWN5BdW4mLMV4uY3glRZQuwX-rMqU",
+        gesheet_url:"https://sheets.googleapis.com/v4/spreadsheets/1x7XsgzJKKTEC_mYhKMwpNTiYkLMD9hjmR-Cyx1EXSw8/values:batchGet?ranges=A1%3AE100&valueRenderOption=FORMATTED_VALUE&key=AIzaSyATblrWN5BdW4mLMV4uY3glRZQuwX-rMqU",
         entries:[],
       };
     
